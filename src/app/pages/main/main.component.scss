@@ -1,0 +1,239 @@
+$Bgcolor: #141414;
+$color: #f2f2f2;
+$bgcolor: rgb(184, 50, 9);
+$primarycolor: #ff4500;
+$primarysecundary: #696969;
+
+.h1 {
+  letter-spacing: 0.2em;
+  color: $color;
+}
+
+.box-1 {
+  border: 0.1em solid $color;
+  max-width: 20em;
+  height: 30em;
+  border-radius: 2em;
+  background: $color;
+
+  .text-center {
+    font-family: "Roboto";
+  }
+
+  .rounded-circle {
+    border: 0.5em solid $bgcolor;
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+.text_secundary {
+  font-family: "Roboto";
+  font-size: 0.8em;
+}
+
+.box-2 {
+  border: 0.1em solid $color;
+  max-width: 20em;
+  height: 30em;
+  border-radius: 2em;
+  background: $color;
+
+  .img {
+    border: 0.5em solid $bgcolor;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+  }
+}
+
+.box-3 {
+  border: 0.1em solid $color;
+  max-width: 20em;
+  height: 30em;
+  border-radius: 2em;
+  background: $color;
+
+  .img1 {
+    border: 0.5em solid $bgcolor;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+  }
+}
+
+.box-4 {
+  border: 0.1em solid $color;
+  max-width: 20em;
+  height: 30em;
+  border-radius: 2em;
+  background: $color;
+
+  .img2 {
+    border: 0.5em solid $bgcolor;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+  }
+}
+
+.box-5 {
+  border: 0.1em solid $color;
+  max-width: 20em;
+  height: 30em;
+  border-radius: 2em;
+  background: $color;
+
+  .img3 {
+    border: 0.5em solid $bgcolor;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+  }
+}
+
+.box-6 {
+  border: 0.1em solid $color;
+  max-width: 20em;
+  height: 30em;
+  border-radius: 2em;
+  background: $color;
+
+  .img4 {
+    border: 0.5em solid $bgcolor;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+  }
+}
+
+// estilizando segunda seção
+
+.imagem__casal {
+  width: 60em;
+  height: 60em;
+  object-fit: cover;
+}
+.border {
+  width: 40em;
+  height: 25em;
+  border-radius: 2em;
+  background: $color;
+  margin: -15em 0em 0em 33em;
+  position: relative;
+
+  .text_principal {
+    font-family: "Poppins";
+    font-size: 3vw;
+
+    .text_principal1 {
+      font-family: "Montserrat";
+      font-size: 1em;
+    }
+  }
+  .btn-01 {
+    border: 1px solid $primarycolor;
+    width: 50vmin;
+    padding: 4vmin 10vmin;
+    margin: 0em 4em;
+    font-family: "Roboto";
+    background: transparent;
+    color: $primarycolor;
+    letter-spacing: 0.2em;
+
+    &:hover {
+      background: $primarycolor;
+      color: $color;
+    }
+  }
+}
+
+.box {
+  margin: 3em 0em 0em 0em;
+}
+
+@media (max-width: 800px) {
+  .imagem__casal {
+    width: 20em;
+    height: 20em;
+  }
+
+  .border {
+    width: 20em;
+    height: 30em;
+    border-radius: 2em;
+    background: $color;
+    margin: 3em 0em 0em 0em;
+
+    .text_principal {
+      font-size: 4vw;
+      padding: 1vw;
+    }
+
+    .btn-01 {
+      margin: 4em 2.7em;
+    }
+  }
+}
+
+// terceira seção
+
+.texto {
+  width: 60vw;
+  font-size: 5vmin;
+}
+
+.btn-02 {
+  border: 1px solid $primarycolor;
+  width: 50vmin;
+  margin: 0em 4em;
+  font-family: "Roboto";
+  background: transparent;
+  color: $primarycolor;
+  letter-spacing: 0.2em;
+  font-size: 3vmin;
+  font-weight: 500;
+
+  &:hover {
+    background: $primarycolor;
+    color: $color;
+  }
+}
+
+strong {
+  color: $primarycolor;
+  font-size: 10vmin;
+  font-weight: 500;
+}
+
+.img_summer {
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
+}
+
+
+// estelizando uma quarta seção
+
+.text-principal{
+  padding: 12vmin;
+  font-size: 9vmin;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+
+.imagem{
+  width: 80vmin;
+  height: 80vmin;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.elementos {
+  // border: .1em solid;
+  width: 100vmin;
+  font-size: 3.5vmin;
+  line-height: 6vmin;
+  gap: 10vmin;
+}

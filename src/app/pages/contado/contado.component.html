@@ -1,0 +1,21 @@
+<h1 class="text-light text-md-center text-lg-center text-center mt-5 title">{{ textCadastro }}</h1>
+<br />
+
+<section
+
+  class="d-flex flex-column w-100 p-5 p-md-5 container"
+>
+  <input class="p-md-2 p-lg-2 p-1" type="text" name="name" id="name" placeholder="Name" required /><br>
+
+  <input class="p-md-2 p-lg-2 p-1" type="email" name="email" id="email" placeholder="Email" required /><br>
+
+  <textarea
+  class="p-md-3 p-lg-3 p-2"
+    name="message"
+    id="message"
+    cols="30"
+    placeholder="Message"
+    required
+  ></textarea><br>
+  <button class="p-lg-3 p-md-3 p-3 rounded-pill submit fs-4 fs-md-4 fs-lg-4" (click)="handleSubmit()"  type="submit">Submit</button>
+</section>

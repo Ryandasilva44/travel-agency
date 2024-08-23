@@ -1,0 +1,32 @@
+.img_casal_noite {
+  width: 70vmin;
+  height: 70vmin;
+  border: 0.2em solid #fff;
+}
+
+.title_text {
+  color: #ff4500;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.text-light {
+  width: 80vmin;
+}
+
+.button-1 {
+  border: 1px solid #ff4500;
+  background: transparent;
+  color: #ff4500;
+  padding: 1em 3em;
+  letter-spacing: 0.1em;
+}
+.button-1:hover {
+  background: #fff;
+  color: #121212;
+  border: none;
+}
+
+.element {
+  margin-top: 5em;
+}/*# sourceMappingURL=page.component.css.map */

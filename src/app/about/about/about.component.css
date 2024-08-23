@@ -1,0 +1,225 @@
+.plano-de-fundo {
+  background-image: url("/assets/mulher-floresta.jpeg");
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 7rem;
+}
+
+.text-principal {
+  letter-spacing: 0.2em;
+  text-shadow: 0.2rem 0.2rem 0.2rem #121212;
+}
+
+.title {
+  font-family: "Alex Brush", sans-serif;
+  font-size: 12vmin;
+  font-weight: 400;
+}
+
+.text-paragrafo {
+  font-size: 6vw;
+}
+
+.btn-01 {
+  letter-spacing: 0.1em;
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+.btn-01:hover {
+  color: #121212;
+  background: #fff;
+}
+
+.section_box {
+  border: 0.3em solid #d2691e;
+  width: 15rem;
+  height: 18rem;
+  border-radius: 1.8rem;
+  background: #141414;
+}
+.section_box .text_paragrafo {
+  font-size: 1.3em;
+  font-family: "Poppins", sans-serif;
+}
+.section_box .text_destaque {
+  font-size: 0.85em;
+  font-style: italic;
+}
+
+.section_box-1 {
+  border: 0.3em solid #d2691e;
+  width: 15rem;
+  height: 18rem;
+  border-radius: 1.8rem;
+  background: #141414;
+}
+.section_box-1 .text_paragrafo-1 {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+}
+.section_box-1 .text_destaque-1 {
+  font-size: 0.85rem;
+  font-style: italic;
+}
+.section_box-1 .icon {
+  width: 8rem;
+}
+
+.section_box-2 {
+  border: 0.3em solid #d2691e;
+  width: 15rem;
+  height: 18rem;
+  border-radius: 1.8rem;
+  background: #141414;
+}
+.section_box-2 .text_paragrafo-2 {
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+}
+.section_box-2 .text_destaque-2 {
+  font-size: 0.85rem;
+  font-style: italic;
+}
+.section_box-2 .icon-1 {
+  width: 8rem;
+}
+
+.section_box-3 {
+  border: 0.3em solid #d2691e;
+  width: 15rem;
+  height: 18rem;
+  border-radius: 1.8rem;
+  background: #141414;
+}
+.section_box-3 .text_paragrafo-3 {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+}
+.section_box-3 .text_destaque-3 {
+  font-size: 0.85rem;
+  font-style: italic;
+}
+.section_box-3 .icon-2 {
+  width: 8rem;
+}
+
+.elements {
+  margin-top: -5em;
+}
+
+.group_text .title-h1 {
+  font-size: 2.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #d2691e;
+}
+.group_text .btn_text {
+  padding: 1em 3em;
+  border-color: #d2691e;
+  color: #d2691e;
+  background: transparent;
+  letter-spacing: 0.2em;
+}
+.group_text .btn_text:hover {
+  border: none;
+  background: #fff;
+  color: #121212;
+}
+.group_text .text-secundary {
+  margin-top: 3rem;
+}
+
+.box_01 {
+  margin-top: 10rem;
+}
+
+.img_circle {
+  width: 20em;
+  height: 20em;
+}
+
+.img_floresta {
+  width: 50vmin;
+  height: 50vmin;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.img_montanha {
+  border: 0.6em solid #fff;
+  margin-top: 2rem;
+  width: 100vmin;
+  height: 100vmin;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.img_montanha_gelo {
+  border: 1em solid #d2691e;
+  margin-top: 2rem;
+  width: 30vmin;
+  height: 30vmin;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.group_img {
+  margin-top: 10rem;
+}
+
+.paragrafo_text {
+  font-size: 10vmin;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button {
+  padding: 1em 3em;
+  letter-spacing: 0.1em;
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+.button:hover {
+  color: #121212;
+  background: #fff;
+}
+
+.text_box-1 {
+  background: #fff;
+  padding: 3rem;
+  max-width: 30rem;
+  height: 25rem;
+  border-radius: 2em;
+}
+.text_box-1 .paragrafo_text-1 {
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  color: #121212;
+  line-height: 2em;
+}
+.text_box-1 .btn-03 {
+  font-family: "Poppins", sans-serif;
+  padding: 1.2em 3em;
+  letter-spacing: 0.1em;
+  border-color: #d2691e;
+  color: #d2691e;
+  background: transparent;
+}
+.text_box-1 .btn-03:hover {
+  background: #141414;
+  color: #fff;
+  border: none;
+}
+
+.text-title-01 {
+  margin-top: 12vmin;
+  font-size: 2.5em;
+}
+
+.rounded-circle {
+  width: 50vmin;
+  height: 50vmin;
+}/*# sourceMappingURL=about.component.css.map */

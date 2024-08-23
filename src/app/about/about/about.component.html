@@ -1,0 +1,141 @@
+<section class="plano-de-fundo text-center">
+  <h1 class="text-light fs-4 mt-2 fw-light text-principal">{{ textTitle }}</h1>
+  <p class="text-light text-center h1 title">{{ textTitle2 }}</p>
+  <p class="text-light text-paragrafo fw-semibold">{{ textTitle3 }}</p>
+  <p class="text-light fs-4 text-destaque fw-lighter">
+    <em>{{ textTitle4 }}</em>
+  </p>
+  <button class="rounded-pill py-3 py-lg-3 px-4 px-lg-5 btn-01">
+    {{ textButton }}
+  </button>
+</section>
+
+<section
+  class="elements d-flex flex-wrap flex-md-row flex-column justify-content-center align-items-center gap-3 container"
+>
+  <div class="section_box text-center p-3">
+    <img
+      class="mb-3"
+      [src]="imgIcon"
+      alt="uma imagem de icone de uma mala de viagem"
+    />
+    <p class="text-light text_paragrafo">{{ textParagrafo }}</p>
+    <p class="text-light text_destaque">{{ textDestacado }}</p>
+  </div>
+  <br />
+
+  <div class="section_box-1 text-center p-3">
+    <img
+      class="icon mb-2"
+      [src]="imgIcon1"
+      alt="uma imagem de um  icone de um planeta"
+    />
+    <p class="text-light text_paragrafo-1">{{ textParagrafo1 }}</p>
+    <p class="text-light text_destaque-1">{{ textDestacado1 }}</p>
+  </div>
+  <br />
+
+  <div class="section_box-2 text-center p-3">
+    <img
+      class="icon-1 mb-1"
+      [src]="imgIcon2"
+      alt="uma imagem de um  icone de aventura"
+    />
+    <p class="text-light text_paragrafo-2">{{ textParagrafo2 }}</p>
+    <p class="text-light text_destaque-2">{{ textDestacado2 }}</p>
+  </div>
+  <br />
+
+  <div class="section_box-3 text-center p-3">
+    <img
+      class="icon-2 mb-3"
+      [src]="imgIcon3"
+      alt="uma imagem de um icone e hotel"
+    />
+    <p class="text-light text_paragrafo-3">{{ textParagrafo3 }}</p>
+    <p class="text-light text_destaque-3">{{ textDestacado3 }}</p>
+  </div>
+</section>
+
+<section
+  class="box_01 gap-3 d-flex flex-wrap flex-md-row flex-column justify-content-center align-items-center"
+>
+  <div class="group_text p-5 text-center">
+    <p class="title-h1 mb-3">{{ titleText }}</p>
+    <p class="text-light text-secundary mb-5">
+      <em>{{ titleTextSecundary }}</em>
+    </p>
+    <button class="rounded-pill btn_text fw-bold">{{ buttonText }}</button>
+  </div>
+
+  <div>
+    <img
+      class="img_circle rounded-circle"
+      [src]="getImag"
+      alt="imagem de um homem e uma mulher"
+    />
+  </div>
+</section>
+
+<section
+  class="d-flex flex-wrap flex-md-row flex-column justify-content-center align-items-center group_img"
+>
+  <div>
+    <img
+      class="rounded-circle img_floresta me-5"
+      [src]="getImag1"
+      alt="imagem de uma floresta com nuvens"
+    />
+  </div>
+  <div>
+    <img
+      class="rounded-circle img_montanha me-1"
+      [src]="getImag2"
+      alt="imagem de uma montanha com nuvens"
+    />
+  </div>
+  <div>
+    <img
+      class="rounded-circle img_montanha_gelo"
+      [src]="getImag3"
+      alt="imagem de uma montanha com gelo em cima dela"
+    />
+  </div>
+</section>
+
+<section class="text-center mt-5">
+  <p class="text-light paragrafo_text fw-bolder">{{ paragrafoText }}</p>
+  <p class="text-light">{{ paragrafoTextSecundary }}</p>
+  <button class="button rounded-pill mt-5">{{ textButton1 }}</button>
+</section>
+
+
+
+    <p class="text-light text-center text-title-01">{{ textTitle01 }}</p>
+
+<section
+  class=" d-flex flex-wrap flex-md-row flex-column justify-content-center align-items-center gap-4 container"
+>
+  <div class="">
+    <div class="text_box-1">
+      <p class="paragrafo_text-1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+        labore nostrum voluptas amet, dolor ad consequatur deleniti aspernatur
+        aliquid reprehenderit fugiat nisi ex beatae quod optio. Distinctio enim
+        ullam voluptas.
+      </p>
+      <button class="rounded-pill btn-03 fw-bolder p-2 px-5">
+        {{ textButton2 }}
+      </button>
+    </div>
+  </div>
+
+  <div>
+    <img
+      class="rounded-circle"
+      [src]="getImagem"
+      alt="imagem de um homem sentado"
+    />
+  </div>
+</section>
+<app-section></app-section>

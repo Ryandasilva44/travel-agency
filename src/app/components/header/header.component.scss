@@ -1,0 +1,54 @@
+$bgcolor: #131313;
+$color: #f2f2f2;
+$Color: #121212;
+
+.box1 {
+  max-width: 36em;
+  padding: 8em;
+}
+
+.h5 {
+  letter-spacing: 0.2em;
+  color: $color;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.h1 {
+  color: $color;
+  font-size: 6rem;
+  text-shadow: 2px 2px 2px $bgcolor;
+  font-family: "Montserrat";
+}
+.btn-1 {
+  border-radius: 30vmin;
+  padding: 5vmin 10vmin;
+  background: transparent;
+  font-family: "Roboto";
+  color: $color;
+  letter-spacing: 0.5vmin;
+  border-color: $color;
+
+  &:hover {
+    background: $color;
+    color: $Color;
+  }
+}
+
+@media (max-width: 800px) {
+  .box1{
+    min-width: 20em;
+    padding: 2.5em;
+  }
+
+  .h5{
+    margin-top: 2.5rem;
+      color: $Color;
+      font-weight: 500;
+  }
+
+  .h1{
+    padding-top: 0.2em;
+    font-size: 3em;
+  }
+}

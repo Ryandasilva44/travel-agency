@@ -1,0 +1,48 @@
+.box1 {
+  max-width: 36em;
+  padding: 8em;
+}
+
+.h5 {
+  letter-spacing: 0.2em;
+  color: #f2f2f2;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.h1 {
+  color: #f2f2f2;
+  font-size: 6rem;
+  text-shadow: 2px 2px 2px #131313;
+  font-family: "Montserrat";
+}
+
+.btn-1 {
+  border-radius: 30vmin;
+  padding: 5vmin 10vmin;
+  background: transparent;
+  font-family: "Roboto";
+  color: #f2f2f2;
+  letter-spacing: 0.5vmin;
+  border-color: #f2f2f2;
+}
+.btn-1:hover {
+  background: #f2f2f2;
+  color: #121212;
+}
+
+@media (max-width: 800px) {
+  .box1 {
+    min-width: 20em;
+    padding: 2.5em;
+  }
+  .h5 {
+    margin-top: 2.5rem;
+    color: #121212;
+    font-weight: 500;
+  }
+  .h1 {
+    padding-top: 0.2em;
+    font-size: 3em;
+  }
+}/*# sourceMappingURL=header.component.css.map */

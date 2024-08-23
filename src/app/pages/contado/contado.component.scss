@@ -1,0 +1,35 @@
+$color: #eee1e193;
+$color1: #f2f2f2;
+$bgcolor: #fa8072;
+
+.title {
+  font-size: 6vmin;
+  font-family: "Poppins";
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+
+input[type="text"],
+input[type="name"],
+input[type="email"] {
+  outline: none;
+  border-bottom-color: $color1;
+  background: $color;
+}
+
+textarea{
+  outline: none;
+  border-bottom-color: $color1;
+  background: $color;
+}
+
+.submit{
+  background: $bgcolor;
+  opacity: .7;
+
+  &:hover{
+    color: $color1;
+    background: $color;
+    opacity: 1;
+  }
+}

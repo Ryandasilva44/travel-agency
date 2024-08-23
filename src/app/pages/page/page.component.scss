@@ -1,0 +1,38 @@
+$color: #fff;
+$Color: #ff4500;
+$color01: #121212;
+
+.img_casal_noite {
+  width: 70vmin;
+  height: 70vmin;
+  border: 0.2em solid $color;
+}
+
+.title_text {
+  color: $Color;
+  font-size: 3em;
+  font-weight: 700;
+}
+.text-light {
+  width: 80vmin;
+}
+
+.button-1{
+  border: 1px solid $Color;
+  background: transparent;
+  color: $Color;
+  padding: 1em 3em;
+  letter-spacing: .1em;
+
+  &:hover{
+    background: $color;
+    color: $color01;
+    border: none;
+  }
+
+}
+
+
+.element{
+  margin-top: 5em;
+}

@@ -1,0 +1,167 @@
+<section class="fundo container-fluid">
+  <p class="h1 text-center p-5 fw-bolder">Vacation Adventure Take Many Forms</p>
+  <section
+    class="d-flex flex-wrap flex-md-row flex-column gap-2 justify-content-center align-items-center"
+  >
+    <div class="box-1 text-center p-2">
+      <p class="text-center text-dark p-3 mb-1">{{ textTitle }}</p>
+      <p class="text_secundary text-center">
+        <em>{{ textSecundary }}</em>
+      </p>
+      <hr />
+      <img
+        class="rounded-circle mt-4"
+        [src]="getImagem1"
+        alt="imagem de um mar com palmeiras"
+      />
+    </div>
+    <br />
+
+    <div class="box-2 text-center p-2">
+      <p class="text-center text-dark p-3 mb-1">{{ textTitle2 }}</p>
+      <p class="text_secundary text-center">
+        <em>{{ textSecundary2 }}</em>
+      </p>
+      <hr />
+      <img
+        class="rounded-circle img mt-4"
+        [src]="getImagem2"
+        alt="dois homens em cima de uma montanha"
+      />
+    </div>
+    <br />
+
+    <div class="box-3 text-center p-2">
+      <p class="text-center text-dark p-3 mb-1">{{ textTitle3 }}</p>
+      <p class="text_secundary text-center">
+        <em>{{ textSecundary3 }}</em>
+      </p>
+      <hr />
+      <img
+        class="rounded-circle img1 mt-5"
+        [src]="getImagem3"
+        alt="homem correndo em cima de uma montanha"
+      />
+    </div>
+
+    <br />
+
+    <div class="box-4 text-center p-2">
+      <p class="text-center text-dark p-3 mb-1">{{ textTitle4 }}</p>
+      <p class="text_secundary text-center">
+        <em>{{ textSecundary4 }}</em>
+      </p>
+      <hr />
+      <img
+        class="rounded-circle img2 mt-3"
+        [src]="getImagem4"
+        alt="imagem de um barco no mar"
+      />
+    </div>
+    <br />
+
+    <div class="box-5 text-center p-2">
+      <p class="text-center text-dark p-3 mb-1">{{ textTitle5 }}</p>
+      <p class="text_secundary text-center">
+        <em>{{ textSecundary5 }}</em>
+      </p>
+      <hr />
+      <img
+        class="rounded-circle img3 mt-2"
+        [src]="getImagem5"
+        alt="imagem de um casal olhando para o horizonte"
+      />
+    </div>
+    <br />
+
+    <div class="box-6 text-center p-6">
+      <p class="text-center text-dark p-3 mb-1">{{ textTitle6 }}</p>
+      <p class="text_secundary text-center">
+        <em>{{ textSecundary6 }}</em>
+      </p>
+      <hr />
+      <img
+        class="img4 rounded-circle mt-4"
+        [src]="getImagem6"
+        alt="imagem de um home andando de bicicleta em cima da montanha"
+      />
+    </div>
+  </section>
+  <!-- segunda seção -->
+  <section class="box">
+    <section
+      class="d-flex flex-wrap flex-md-row flex-column gap-2 justify-content-center align-items-center"
+    >
+      <img
+        class="imagem__casal rounded-circle"
+        [src]="pathImag"
+        alt="casal usando mochila olhando para o horizonte"
+      />
+
+      <div class="border">
+        <p class="text-center text-dark py-4 text_principal fw-bolder">
+          {{ textPrincipal }}
+        </p>
+        <p
+          class="text-center text-dark text_principal1 py-2 d-flex justify-content-lg-start"
+        >
+          {{ textPrincipal2 }}
+        </p>
+        <button class="btn-01 p-4 rounded-pill fw-bolder me-5">
+          {{ textButton2 }}
+        </button>
+      </div>
+    </section>
+  </section>
+
+  <!-- terceira seção -->
+  <section
+    class="summer mt-5 d-flex flex-wrap flex-md-row flex-column justify-content-center align-items-center"
+  >
+    <div class="p-5 pe-5">
+      <p class="text-light h1 fw-bolder">
+        <strong class="me-1">5%</strong>{{ textSumer }}
+      </p>
+      <p class="texto">
+        <em class="text-light">{{ textSumer2 }}</em>
+      </p>
+      <button class="btn-02 p-3 rounded-pill mt-2">
+        {{ textButtomSumer }}
+      </button>
+    </div>
+
+    <img
+      class="img_summer rounded-circle mt-5"
+      [src]="imgSumer"
+      alt="imagem de duas mulheres em cima de uma montanha batendo foto"
+    />
+  </section>
+</section>
+
+<!-- quarta seção -->
+<section style="margin-top: 4em;">
+  <p
+    class="text-light text-principal text-center text-md-center text-lg-center mt-5 mt-md-5 mt-lg-4"
+  >
+    {{ textPrincipal3 }}
+  </p>
+</section>
+<div
+  class="d-flex flex-wrap flex-md-row flex-column justify-content-center align-items-center"
+>
+  <img
+    class="imagem"
+    [src]="pathImagem1"
+    alt="um casal de homem loiro e mulher morena em cima de uma montanha"
+  />
+  <div class="elementos text-light p-5">
+    <p>
+      <em>{{ textSecundario }}</em>
+    </p>
+    <p>
+      <em>{{ textSecundario }}</em>
+    </p>
+  </div>
+  <div></div>
+</div>
+<app-contado></app-contado>

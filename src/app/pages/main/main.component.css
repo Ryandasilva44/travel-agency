@@ -1,0 +1,218 @@
+.h1 {
+  letter-spacing: 0.2em;
+  color: #f2f2f2;
+}
+
+.box-1 {
+  border: 0.1em solid #f2f2f2;
+  max-width: 20em;
+  height: 30em;
+  border-radius: 2em;
+  background: #f2f2f2;
+}
+.box-1 .text-center {
+  font-family: "Roboto";
+}
+.box-1 .rounded-circle {
+  border: 0.5em solid rgb(184, 50, 9);
+  width: 15rem;
+  height: 15rem;
+}
+
+.text_secundary {
+  font-family: "Roboto";
+  font-size: 0.8em;
+}
+
+.box-2 {
+  border: 0.1em solid #f2f2f2;
+  max-width: 20em;
+  height: 30em;
+  border-radius: 2em;
+  background: #f2f2f2;
+}
+.box-2 .img {
+  border: 0.5em solid rgb(184, 50, 9);
+  width: 15rem;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box-3 {
+  border: 0.1em solid #f2f2f2;
+  max-width: 20em;
+  height: 30em;
+  border-radius: 2em;
+  background: #f2f2f2;
+}
+.box-3 .img1 {
+  border: 0.5em solid rgb(184, 50, 9);
+  width: 15rem;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box-4 {
+  border: 0.1em solid #f2f2f2;
+  max-width: 20em;
+  height: 30em;
+  border-radius: 2em;
+  background: #f2f2f2;
+}
+.box-4 .img2 {
+  border: 0.5em solid rgb(184, 50, 9);
+  width: 15rem;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box-5 {
+  border: 0.1em solid #f2f2f2;
+  max-width: 20em;
+  height: 30em;
+  border-radius: 2em;
+  background: #f2f2f2;
+}
+.box-5 .img3 {
+  border: 0.5em solid rgb(184, 50, 9);
+  width: 15rem;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box-6 {
+  border: 0.1em solid #f2f2f2;
+  max-width: 20em;
+  height: 30em;
+  border-radius: 2em;
+  background: #f2f2f2;
+}
+.box-6 .img4 {
+  border: 0.5em solid rgb(184, 50, 9);
+  width: 15rem;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imagem__casal {
+  width: 60em;
+  height: 60em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.border {
+  width: 40em;
+  height: 25em;
+  border-radius: 2em;
+  background: #f2f2f2;
+  margin: -15em 0em 0em 33em;
+  position: relative;
+}
+.border .text_principal {
+  font-family: "Poppins";
+  font-size: 3vw;
+}
+.border .text_principal .text_principal1 {
+  font-family: "Montserrat";
+  font-size: 1em;
+}
+.border .btn-01 {
+  border: 1px solid #ff4500;
+  width: 50vmin;
+  padding: 4vmin 10vmin;
+  margin: 0em 4em;
+  font-family: "Roboto";
+  background: transparent;
+  color: #ff4500;
+  letter-spacing: 0.2em;
+}
+.border .btn-01:hover {
+  background: #ff4500;
+  color: #f2f2f2;
+}
+
+.box {
+  margin: 3em 0em 0em 0em;
+}
+
+@media (max-width: 800px) {
+  .imagem__casal {
+    width: 20em;
+    height: 20em;
+  }
+  .border {
+    width: 20em;
+    height: 30em;
+    border-radius: 2em;
+    background: #f2f2f2;
+    margin: 3em 0em 0em 0em;
+  }
+  .border .text_principal {
+    font-size: 4vw;
+    padding: 1vw;
+  }
+  .border .btn-01 {
+    margin: 4em 2.7em;
+  }
+}
+.texto {
+  width: 60vw;
+  font-size: 5vmin;
+}
+
+.btn-02 {
+  border: 1px solid #ff4500;
+  width: 50vmin;
+  margin: 0em 4em;
+  font-family: "Roboto";
+  background: transparent;
+  color: #ff4500;
+  letter-spacing: 0.2em;
+  font-size: 3vmin;
+  font-weight: 500;
+}
+.btn-02:hover {
+  background: #ff4500;
+  color: #f2f2f2;
+}
+
+strong {
+  color: #ff4500;
+  font-size: 10vmin;
+  font-weight: 500;
+}
+
+.img_summer {
+  width: 20em;
+  height: 20em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text-principal {
+  padding: 12vmin;
+  font-size: 9vmin;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.imagem {
+  width: 80vmin;
+  height: 80vmin;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.elementos {
+  width: 100vmin;
+  font-size: 3.5vmin;
+  line-height: 6vmin;
+  gap: 10vmin;
+}/*# sourceMappingURL=main.component.css.map */
